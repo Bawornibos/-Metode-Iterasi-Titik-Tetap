@@ -1,0 +1,6 @@
+{
+    "require": {
+        "markrogoyski/math-php": "0.*",
+        "chriskonnertz/string-calc": "^1.0"
+    }
+}
