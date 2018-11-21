@@ -1,3 +1,8 @@
+<?php
+
+$anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -224,7 +229,16 @@
                 <h3 class="display-5"><i class="fa fa-users"></i> Kelompok 3</h3>
                 <hr>
                 <ol>
-                    <li>Moch. Bardizba Z <br><span class="badge badge-info">4611416038</span></li>
+
+                    <?php
+                    foreach($anggota as $person){
+                        ?>
+                        <li><?=$person->nama?><br><span class="badge badge-primary">Nim <?=$person->nim?></span></li>
+                        <?
+                    }
+                    ?>
+                    
+                    
                 </ol>
                 </div>
             </div>
