@@ -1,5 +1,5 @@
 <?php
-
+set_time_limit(3);
 require_once __DIR__."/../lib.php";
 $fx = getPost('fx');
 $gx = getPost("gx");
@@ -33,7 +33,6 @@ reload_js("https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_
 </script>
     <SCRIPT>//MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
 <div class="card">
-$$ <?=$fx?> $$
                 <div class="card-body">
                     <h3 class="display-5"><i class="fa fa-plane"></i> Hasil</h3>
                     <hr>

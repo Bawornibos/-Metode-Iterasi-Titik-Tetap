@@ -218,6 +218,16 @@
                     </form>
                 </div>
             </div>
+
+            <div class="card my-2">
+                <div class="card-body">
+                <h3 class="display-5"><i class="fa fa-users"></i> Kelompok 3</h3>
+                <hr>
+                <ol>
+                    <li>Moch. Bardizba Z <br><span class="badge badge-info">4611416038</span></li>
+                </ol>
+                </div>
+            </div>
         </div>
         <div class="col-md-8 py-2"  id="result">
             <div class="card">
