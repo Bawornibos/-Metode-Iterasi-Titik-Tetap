@@ -58,8 +58,8 @@ reload_js("https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_
                 <tr>
                 <th scope="col">i</th>
                 <th scope="col">x<sub>i</sub> </th>
-                <th scope="col">g(x<sub>i-1</sub>)</th>
                 <th scope="col">f(x<sub>i</sub>)</th>
+                <th scope="col">g(x<sub>i-1</sub>)</th>
                 <th scope="col">e</th>
                 </tr>
             </thead>
