@@ -1,26 +1,10 @@
 <?php
 
 require_once __DIR__."/vendor/autoload.php";
-
-
 use MathPHP\Algebra;
 use MathPHP\NumericalAnalysis\RootFinding;
 use ChrisKonnertz\StringCalc;
 use ChrisKonnertz\StringCalc\Exceptions;
-/*
-$g⟮x⟯ = function($x) {
-    return sqrt(2*$x + 3);
-    //return ($x**4 + 8 * $x**3 - 13 * $x**2 + 96)/92;
-};https://openload.co/embed/LchQ6D81tlI
-$a   = 0;       // The start of the interval which contains a root
-$b   = 4;       // The end of the interval which contains a root
-$p   = 0;       // The initial guess for our root
-$tol = 0.000001; // Tolerance; how close to the actual solution we would like
-$x   = RootFinding\FixedPointIteration::solve($g⟮x⟯, $a, $b, $p, $tol); // Solve for x where f(x) = 0
-echo $x;*/
-
-/*$calc = new ChrisKonnertz\StringCalc\StringCalc();
-echo $calc->calculate("pow(5,2)-2*5-3");*/
 
 class FixedPointCalculator extends ChrisKonnertz\StringCalc\StringCalc
 {
