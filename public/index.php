@@ -234,7 +234,7 @@ $anggota = json_decode(file_get_contents(__DIR__."/../anggota.json"));
                     foreach($anggota as $person){
                         ?>
                         <li><?=$person->nama?><br><span class="badge badge-primary">Nim <?=$person->nim?></span></li>
-                        <?
+                        <?php
                     }
                     ?>
                     
